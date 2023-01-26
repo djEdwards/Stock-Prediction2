@@ -18,15 +18,11 @@ Copy code
 
 ## Usage
 1. Replace YOUR_API_KEY in the script with your own Polygon.io API key.
-2. Run the script by providing the ticker symbol of the stock you want to predict as an argument. For example:
-python stock_prediction.py TSLA
 
 Copy code
 
 ## Output
-The script will output the last closing price of the stock, the next day's predicted closing price, and the root mean squared error (RMSE) between the predictions and the actual values.
-
-Additionally, it will also save a csv file with the historical data and the predicted closing prices, with the ticker symbol and the date it was created in the file name.
+The script will output the last closing price of the stock, the next day's predicted closing price
 
 ## Note
 The script is trained on the last month of data. If the stock has not been publicly traded for a month or more, the script will not work as expected.
