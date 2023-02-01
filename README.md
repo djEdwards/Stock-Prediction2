@@ -14,12 +14,8 @@ The script is written in Python, using libraries such as pandas, numpy, scikit-l
 You can install the required packages by running:
 pip install -r requirements.txt
 
-Copy code
-
 ## Usage
 1. Replace YOUR_API_KEY in the script with your own Polygon.io API key.
-
-Copy code
 
 ## Output
 The script will output the last closing price of the stock, the next day's predicted closing price
